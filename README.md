@@ -1,0 +1,2 @@
+# core
+One for all
