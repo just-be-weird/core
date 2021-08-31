@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="55b2a32c-0392-4fa7-b670-d651a165e6b5" name="Changes" comment="*  Setup redux">
+      <change afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Congrats.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Congrats.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GuessedWords.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GuessedWords.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Input.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Input.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LanguagePicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/actions/__mocks__/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/actions/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/actions/index.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/context/guessedWordsContext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/context/guessedWordsContext.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/context/languageContext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/context/successContext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/guessWord.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/index.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reportWebVitals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/setupTests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/testUtils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1x4XZvrkH11yHVqDvMlkNOP7aPs" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Roaming/nvm/v12.18.3/node_modules/prettier" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\urfrn\AppData\Roaming\nvm\v12.18.3\node_modules\prettier" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
+  </component>
+  <component name="RecentsManager">
+    <key name="es6.move.members.recent.items">
+      <recent name="D:\Document Space\My Drive\Media\Videos\Educational\WIP\2021\playground\test\testUtils.js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Document Space\My Drive\Media\Videos\Educational\WIP\2021\playground\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.test">
+    <configuration name="server" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="server" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="npm.server" />
+      <item itemvalue="npm.test" />
+      <item itemvalue="npm.start" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.test" />
+        <item itemvalue="npm.server" />
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="55b2a32c-0392-4fa7-b670-d651a165e6b5" name="Changes" comment="" />
+      <created>1629615397162</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1629615397162</updated>
+      <workItem from="1629615402798" duration="20400000" />
+      <workItem from="1629695183457" duration="71000" />
+      <workItem from="1629819358039" duration="6833000" />
+      <workItem from="1629870794026" duration="1870000" />
+      <workItem from="1630208451935" duration="9604000" />
+      <workItem from="1630227660302" duration="926000" />
+      <workItem from="1630228611519" duration="4977000" />
+      <workItem from="1630239528142" duration="5506000" />
+      <workItem from="1630423008063" duration="596000" />
+      <workItem from="1630423622728" duration="2830000" />
+    </task>
+    <task id="LOCAL-00001" summary="Counter testing app">
+      <created>1629632872949</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1629632872950</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added congrats component and test utils">
+      <created>1629641060128</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1629641060128</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added proptypes check">
+      <created>1629642653945</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1629642653945</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Run enzyme setup before running each test file">
+      <created>1629643085883</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1629643085883</updated>
+    </task>
+    <task id="LOCAL-00005" summary="* Run enzyme setup before running each test file&#10;* Uses useState without destructuring Input.js">
+      <created>1629822603969</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1629822603969</updated>
+    </task>
+    <task id="LOCAL-00006" summary="* Test onclick of submit button">
+      <created>1629826176021</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1629826176021</updated>
+    </task>
+    <task id="LOCAL-00007" summary="* Add helper function for letters matched between guess and secret word">
+      <created>1629872655869</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1629872655869</updated>
+    </task>
+    <task id="LOCAL-00008" summary="* Add functional tests for guess word">
+      <created>1630224188196</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1630224188196</updated>
+    </task>
+    <task id="LOCAL-00009" summary="*  Setup redux">
+      <created>1630238431155</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1630238431155</updated>
+    </task>
+    <task id="LOCAL-00010" summary="*  Setup redux">
+      <created>1630423043896</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1630423043896</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="hooks-test" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Counter testing app" />
+    <MESSAGE value="Added congrats component and test utils" />
+    <MESSAGE value="Added proptypes check" />
+    <MESSAGE value="Run enzyme setup before running each test file" />
+    <MESSAGE value="* Run enzyme setup before running each test file&#10;* Uses useState without destructuring Input.js" />
+    <MESSAGE value="* Test onclick of submit button" />
+    <MESSAGE value="* Add helper function for letters matched between guess and secret word" />
+    <MESSAGE value="* Add functional tests for guess word" />
+    <MESSAGE value="*  Setup redux" />
+    <option name="LAST_COMMIT_MESSAGE" value="*  Setup redux" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
