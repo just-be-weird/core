@@ -1,44 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="55b2a32c-0392-4fa7-b670-d651a165e6b5" name="Changes" comment="*  Setup redux">
-      <change afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Congrats.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Congrats.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GuessedWords.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GuessedWords.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Input.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Input.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LanguagePicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/actions/__mocks__/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/actions/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/actions/index.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/context/guessedWordsContext.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/context/guessedWordsContext.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/context/languageContext.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/context/successContext.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/guessWord.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helpers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helpers/index.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reportWebVitals.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/setupTests.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/testUtils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="55b2a32c-0392-4fa7-b670-d651a165e6b5" name="Changes" comment="Initial commit context">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LanguagePicker.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/strings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/strings.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Congrats.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Congrats.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Congrats.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Congrats.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GuessedWords.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/GuessedWords.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GuessedWords.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/GuessedWords.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Input.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Input.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Input.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Input.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LanguagePicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/LanguagePicker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/index.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/index.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/context/guessedWordsContext.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contexts/guessedWordsContext.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/context/guessedWordsContext.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contexts/guessedWordsContext.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/context/languageContext.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contexts/languageContext.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/context/successContext.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contexts/successContext.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guessWord.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/guessWord.test.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +132,8 @@
       <workItem from="1630228611519" duration="4977000" />
       <workItem from="1630239528142" duration="5506000" />
       <workItem from="1630423008063" duration="596000" />
-      <workItem from="1630423622728" duration="2830000" />
+      <workItem from="1630423622728" duration="5022000" />
+      <workItem from="1630477016637" duration="1265000" />
     </task>
     <task id="LOCAL-00001" summary="Counter testing app">
       <created>1629632872949</created>
@@ -219,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630423043896</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Initial commit context">
+      <created>1630427027808</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1630427027808</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,7 +252,8 @@
     <MESSAGE value="* Add helper function for letters matched between guess and secret word" />
     <MESSAGE value="* Add functional tests for guess word" />
     <MESSAGE value="*  Setup redux" />
-    <option name="LAST_COMMIT_MESSAGE" value="*  Setup redux" />
+    <MESSAGE value="Initial commit context" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit context" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

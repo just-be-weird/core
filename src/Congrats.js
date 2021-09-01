@@ -1,5 +1,8 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+
+import successContext from './contexts/successContext';
+import languageContext from './contexts/languageContext';
+import stringsModule from './helpers/strings';
 
 /**
  * Functional react component for congratulatory message.
@@ -7,12 +10,15 @@ import PropTypes from 'prop-types';
  * @param {object} props - React props.
  * @returns {JSX.Element} - Rendered component (or null if `success` prop is false).
  */
-const Congrats = (props) => {
-  if (props.success) {
+const Congrats = () => {
+  const [success] = successContext.useSuccess();
+  const language = React.useContext(languageContext);
+
+  if (success) {
     return (
       <div data-test="component-congrats" className="alert alert-success">
         <span data-test="congrats-message">
-          Congratulations! You guessed the word!
+          {stringsModule.getStringByLanguage(language, 'congrats')}
         </span>
       </div>
     );
@@ -21,10 +27,6 @@ const Congrats = (props) => {
       <div data-test="component-congrats" />
     );
   }
-};
-
-Congrats.propTypes = {
-  success: PropTypes.bool.isRequired,
 };
 
 export default Congrats;

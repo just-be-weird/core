@@ -4,6 +4,13 @@ import { mount } from 'enzyme';
 import App from './App';
 import { findByTestAttr } from '../test/testUtils.js';
 
+import successContext from './contexts/successContext';
+import guessedWordsContext from './contexts/guessedWordsContext';
+
+import Congrats from './Congrats';
+import Input from './Input';
+import GuessedWords from './GuessedWords';
+
 /**
  * Create wrapper with specified initial conditions,
  * then submit a guessed word of 'train'
@@ -12,10 +19,17 @@ import { findByTestAttr } from '../test/testUtils.js';
  * @param {object} state - Initial conditions.
  * @returns {Wrapper} - Enzyme wrapper of mounted App component
  */
-const setup = (state = {}) => {
+const setup = ({ secretWord, guessedWords, success }) => {
 
-  // TODO: apply state
-  const wrapper = mount(<App />);
+  const wrapper = mount(
+    <guessedWordsContext.GuessedWordsProvider>
+      <successContext.SuccessProvider>
+        <Congrats />
+        <Input secretWord={secretWord} />
+        <GuessedWords />
+      </successContext.SuccessProvider>
+    </guessedWordsContext.GuessedWordsProvider>
+  );
 
   // add value to input box
   const inputBox = findByTestAttr(wrapper, 'input-box');
@@ -25,10 +39,16 @@ const setup = (state = {}) => {
   const submitButton = findByTestAttr(wrapper, 'submit-button');
   submitButton.simulate('click', { preventDefault() {} });
 
+  guessedWords.map(guess => {
+    const mockEvent = { target: { value: guess.guessedWord } };
+    inputBox.simulate('change', mockEvent);
+    submitButton.simulate('click', { preventDefault() {} });
+  })
+
   return wrapper;
 }
 
-describe.skip('no words guessed', () => {
+describe('no words guessed', () => {
   let wrapper;
   beforeEach(() => {
     wrapper = setup({
@@ -43,7 +63,7 @@ describe.skip('no words guessed', () => {
   });
 });
 
-describe.skip('some words guessed', () => {
+describe('some words guessed', () => {
   let wrapper;
   beforeEach(() => {
   	wrapper = setup({
@@ -58,7 +78,7 @@ describe.skip('some words guessed', () => {
   });
 });
 
-describe.skip('guess secret word', () => {
+describe('guess secret word', () => {
   let wrapper;
   beforeEach(() => {
   	wrapper = setup({

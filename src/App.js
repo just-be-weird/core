@@ -33,8 +33,8 @@ const reducer = (state, action) => {
 
 function App() {
   const [state, dispatch] = React.useReducer(
-      reducer,
-      { secretWord: null, language: 'en' }
+    reducer,
+    { secretWord: null, language: 'en' }
   )
 
   // TODO: get props from shared state
@@ -54,30 +54,30 @@ function App() {
 
   if(state.secretWord === null) {
     return (
-        <div className="container" data-test="spinner">
-          <div className="spinner-border" role="status">
-            <span className="sr-only">Loading...</span>
-          </div>
-          <p>Loading secret word...</p>
+      <div className="container" data-test="spinner">
+        <div className="spinner-border" role="status">
+          <span className="sr-only">Loading...</span>
         </div>
+        <p>Loading secret word...</p>
+      </div>
     )
   }
 
   return (
-      <div data-test="component-app" className="container">
-        <h1>Jotto</h1>
-        <p>The secret word is {state.secretWord}</p>
-        <languageContext.Provider value={state.language}>
-          <LanguagePicker setLanguage={setLanguage} />
-          <guessedWordsContext.GuessedWordsProvider>
-            <successContext.SuccessProvider>
-              <Congrats />
-              <Input secretWord={state.secretWord} />
-            </successContext.SuccessProvider>
-            <GuessedWords />
-          </guessedWordsContext.GuessedWordsProvider>
-        </languageContext.Provider>
-      </div>
+    <div data-test="component-app" className="container">
+      <h1>Jotto</h1>
+      <p>The secret word is {state.secretWord}</p>
+      <languageContext.Provider value={state.language}>
+        <LanguagePicker setLanguage={setLanguage} />
+        <guessedWordsContext.GuessedWordsProvider>
+          <successContext.SuccessProvider>
+            <Congrats />
+            <Input secretWord={state.secretWord} />
+          </successContext.SuccessProvider>
+          <GuessedWords />
+        </guessedWordsContext.GuessedWordsProvider>
+      </languageContext.Provider>
+    </div>
   );
 }
 

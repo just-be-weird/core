@@ -18,35 +18,35 @@ const setup = () => {
 }
 
 describe.each([
-  [null, true, false], // This is 1st input => secretWord -> null, loadingShows -> true, appShows -> false
-  ['party', false, true],// 2nd input => secretWord -> party, loadingShows -> false, appShows -> true
+  [null, true, false],
+  ['party', false, true],
 ])(
-    'renders with secretWord as %s', (secretWord, loadingShows, appShows) => {
-      let wrapper;
-      let originalUseReducer;
+  'renders with secretWord as %s', (secretWord, loadingShows, appShows) => {
+    let wrapper;
+    let originalUseReducer;
 
-      beforeEach(() => {
-        originalUseReducer = React.useReducer;
-        const mockUseReducer = jest.fn()
-            .mockReturnValue([
-              { secretWord, language: 'en' },
-              jest.fn(),
-            ]);
-        React.useReducer = mockUseReducer;
-        wrapper = setup();
-      });
-      afterEach(() => {
-        React.useReducer = originalUseReducer;
-      });
-      test(`renders loading spinner: ${loadingShows}`, () => {
-        const spinnerComponent = findByTestAttr(wrapper, 'spinner');
-        expect(spinnerComponent.exists()).toBe(loadingShows);
-      });
-      test(`renders app: ${appShows}`, () => {
-        const appComponent = findByTestAttr(wrapper, 'component-app');
-        expect(appComponent.exists()).toBe(appShows);
-      });
-    }
+    beforeEach(() => {
+      originalUseReducer = React.useReducer;
+      const mockUseReducer = jest.fn()
+        .mockReturnValue([
+          { secretWord, language: 'en' },
+          jest.fn(),
+        ]);
+      React.useReducer = mockUseReducer;
+      wrapper = setup();
+    });
+    afterEach(() => {
+      React.useReducer = originalUseReducer;
+    });
+    test(`renders loading spinner: ${loadingShows}`, () => {
+      const spinnerComponent = findByTestAttr(wrapper, 'spinner');
+      expect(spinnerComponent.exists()).toBe(loadingShows);
+    });
+    test(`renders app: ${appShows}`, () => {
+      const appComponent = findByTestAttr(wrapper, 'component-app');
+      expect(appComponent.exists()).toBe(appShows);
+    });
+  }
 )
 
 describe('get secret word', () => {
